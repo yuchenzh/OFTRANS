@@ -42,7 +42,6 @@ muValues_H2_fit = sutherland(Tvalues, AS, TS)
 
 # CO2
 muValues_CO2 = oftrans.getMuList4Species("CO2")
-muValues_default = sutherland(Tvalues, 2.125e-6, 240.)
 AS,TS = oftrans.sutherland_params["CO2"]
 muValues_CO2_fit = sutherland(Tvalues, AS, TS)
 
